@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Occasio | Booking</title>
+    <link rel="shortcut icon" href="https://i.postimg.cc/26ZgPsJP/occasio.jpg" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Delius&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+AU+QLD:wght@100..400&family=Playwrite+PL:wght@100..400&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-image: url(https://marketplace.canva.com/EAGrKYb5QhU/1/0/1131w/canva-brown-and-white-simple-aesthetic-blob-page-border-zuUrAxDBaiI.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            color: #c89a8b;
+            font-family: "Josefin Sans", sans-serif;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+     <!-- Header -->
+  <header class="flex justify-between items-center px-10 py-4 bg-[#945a57] text-[#c89a8b] border-b border-gray-300 shadow">
+    <!-- Logo + Company Name -->
+    <div class="flex items-center">
+      <img src="https://i.postimg.cc/26ZgPsJP/occasio.jpg" alt="Logo" class="w-40 h-28">
+
+    </div>
+
+    <!-- Navbar -->
+    <nav class="space-x-6 ml-20 font-bold text-2xl">
+      <a href="./index.html" class="relative hover:text-gray-900 transition duration-300 
+       after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 
+       after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 
+       hover:after:w-full">
+        Home
+      </a>
+      <a href="./login.html" class="relative hover:text-gray-900 transition duration-300 
+       after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 
+       after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 
+       hover:after:w-full">
+        Login
+      </a>
+      <a href="./registration.html" class="relative hover:text-gray-900 transition duration-300 
+       after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 
+       after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 
+       hover:after:w-full">
+        Registration
+      </a>
+      <a href="./booking.html" class="relative hover:text-gray-900 transition duration-300 
+       after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 
+       after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 
+       hover:after:w-full">
+        Booking
+      </a>
+      <a href="./contact.html" class="relative hover:text-gray-900 transition duration-300 
+       after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 
+       after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 
+       hover:after:w-full">
+        Contact Us
+      </a>
+    </nav>
+
+    <!-- Buttons -->
+    <div class="space-x-3">
+      <span class="text-5xl font-bold">OCCASIO</span>
+    </div>
+  </header>
+    <section class="flex flex-col items-center justify-center px-4 pb-20 pt-8">
+        <h1 class="text-center font-bold text-4xl mb-8 text-[#c89a8b]">Let's Make It Happen - Book Now</h1>
+        <form class="bg-white shadow-lg rounded-2xl p-4 w-full max-w-2xl space-y-4">
+            <div>
+                <label class="form-label block mb-1 font-medium">Name: </label>
+                <input type="text"
+                    class="form-control border-2 w-full border-[#c89a8b] rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#c89a8b]"
+                    placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="" class="form-label block mb-1 font-medium">Email address: </label>
+                <input type="email"
+                    class="form-control border-2 w-full border-[#c89a8b] rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#c89a8b]"
+                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email Address">
+            </div>
+            <div>
+                <label for="" class="form-label block mb-1 font-medium">Event Date: </label>
+                <input type="date"
+                    class="border-2 w-full border-[#c89a8b] rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#c89a8b]">
+            </div>
+            <div>
+                <label for="type" class="form-label block mb-2 font-medium">Event Type:</label>
+                <div class="grid grid-cols-2 gap-2 text-sm items-center">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Birthday
+                        Party</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Photography
+                        Session</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Weddings</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Engagement
+                        Parties</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Corporate
+                        Events</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Product
+                        Launch</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Conferences &
+                        Seminars</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Exhibitions &
+                        Trade Shows</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Award
+                        Ceremonies</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Festivals &
+                        Concerts</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Baby
+                        Showers</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Themed
+                        Parties</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Charity &
+                        Fundraising Events</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Cultural
+                        Events</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                    <label for="type"
+                        class="flex items-center p-2 border rounded-md cursor-pointer hover:bg-[#f4ede8]">Private
+                        Dinners & Galas</label>
+                    <input name="type" type="radio" class="w-4 h-4">
+                </div>
+            </div>
+            <div>
+                <label for="" class="form-label block mb-1 font-medium">Additional Notes</label>
+                <textarea name="" id="" cols="20" rows="2"></textarea>
+                <input type="text" placeholder="Let us know the little details that matter"
+                    class="border-2 w-full border-[#c89a8b] rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#c89a8b] resize-y min-h-[100px]">
+            </div>
+            <div class="text-center">
+                <button
+                    class="bg-[#c89a8b] text-white font-semibold px-6 py-2 rounded-lg shadow-md hover:bg-[#b67d6b] transition">Submit</button>
+            </div>
+
+        </form>
+
+    </section>
+    <footer class="bg-[#dfbf9f] rounded-lg shadow-sm dark:bg-gray-900 ">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="./index.html" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                    <img src="https://i.postimg.cc/26ZgPsJP/occasio.jpg" class="h-30 w-40" alt="Flowbite Logo" />
+
+                </a>
+                <ul
+                    class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-700 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6 text-xl">Terms of Use</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6 text-xl">Shipping & Returns</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6 text-xl">Privacy Policy</a>
+                    </li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li>
+                        <i class="fa-brands fa-instagram text-2xl"></i>
+                        <i class="fa-brands fa-facebook-f text-2xl"></i>
+                        <i class="fa-brands fa-pinterest-p text-2xl"></i>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a
+                    href="https://flowbite.com/" class="hover:underline">Occasio™</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+</body>
+
+</html>
