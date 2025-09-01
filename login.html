@@ -2,136 +2,139 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Occasio | Login</title>
-    <link rel="shortcut icon" href="https://i.postimg.cc/26ZgPsJP/occasio.jpg" type="image/x-icon">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Occasio | Login</title>
+  <link rel="shortcut icon" href="https://i.postimg.cc/26ZgPsJP/occasio.jpg" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body
-    style="background-image:url(https://marketplace.canva.com/EAGs7xG11RM/1/0/1600w/canva-brown-aesthetic-linketree-background-I2B_BqQWmPE.jpg);background-size:contain ;background-position:center ; font-family:Josefin Sans, sans-serif;">
-    <!-- Header -->
-    <header
-        class="flex justify-between items-center px-10 py-4 bg-[#945a57] text-[#c89a8b] border-b border-gray-300 shadow">
-        <!-- Logo + Company Name -->
-        <div class="flex items-center">
-            <img src="https://i.postimg.cc/26ZgPsJP/occasio.jpg" alt="Logo" class="w-40 h-28">
+  style="background-image:url(https://marketplace.canva.com/EAGs7xG11RM/1/0/1600w/canva-brown-aesthetic-linketree-background-I2B_BqQWmPE.jpg);background-size:cover;background-position:center;background-repeat:no-repeat;font-family:Josefin Sans, sans-serif;">
 
-        </div>
-
-        <!-- Navbar -->
-        <nav class="space-x-6 ml-20 font-bold text-2xl">
-            <a href="./index.html" class="relative hover:text-gray-900 transition duration-300 
-       after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 
-       after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 
-       hover:after:w-full">
-                Home
-            </a>
-            <a href="./login.html" class="relative hover:text-gray-900 transition duration-300 
-       after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 
-       after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 
-       hover:after:w-full">
-                Login
-            </a>
-            <a href="./registration.html" class="relative hover:text-gray-900 transition duration-300 
-       after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 
-       after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 
-       hover:after:w-full">
-                Registration
-            </a>
-            <a href="./booking.html" class="relative hover:text-gray-900 transition duration-300 
-       after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 
-       after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 
-       hover:after:w-full">
-                Booking
-            </a>
-            <a href="./contact.html" class="relative hover:text-gray-900 transition duration-300 
-       after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 
-       after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 
-       hover:after:w-full">
-                Contact Us
-            </a>
-        </nav>
-
-        <!-- Buttons -->
-        <div class="space-x-3">
-            <span class="text-5xl font-bold">OCCASIO</span>
-        </div>
-    </header>
-    
-    <h1 class="text-yellow-800 text-center text-5xl my-8 mt-8" style="font-family: 'Times New Roman', Times, serif;">Login</h1>
-    <div class="flex mx-20 wp-content pl-20 ">
-        <div class=" ml-20 flex flex-row  text-center border-1 rounded-lg border-red-50 shadow">
-            <img src="https://cdni.iconscout.com/illustration/premium/thumb/event-management-6544578-5395861.png"
-                class="w-320 p-3">
-        </div>
-        <div class="flex flex-row w-400 pr-40">
-            <form class=" bg-[#e39a82] mx-auto border-1 border-red-50 rounded-lg p-20 shadow">
-                <div class="mb-5">
-                    <label for="email" class=" block mb-2 text-lg font-medium text-gray-900 dark:text-white ">Username
-                        or Email</label>
-                    <input type="email" id="email"
-                        class=" border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        required />
-                </div>
-                <div class="mb-5">
-                    <label for="password"
-                        class="block mb-2 text-lg font-medium text-gray-900 dark:text-white mt-10">Password</label>
-                    <input type="password" id="password"
-                        class=" border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        required />
-                </div>
-                <div class="mb-5 text-lg">
-                    <a href="" class="text-red-700">Forgot password ?</a>
-                </div>
-                <div class="text-center text-lg">
-                    <a href="./index.html"
-                        class="mt-5 mb-5 text-white bg-[#945a57] hover:bg-[#bc9fad] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Login
-                    </a>
-                    <p class="mt-7">Don't have an account ? <a href="./registration.html" class="text-yellow-900">Register</a>
-                    </p>
-                </div>
-            </form>
-        </div>
+    <!-- ✅ Header (your provided code) -->
+  <header
+    class="flex flex-wrap items-center justify-between gap-3 px-4 sm:px-6 md:px-10 py-3 md:py-4 bg-[#945a57] text-[#c89a8b] border-b border-gray-300 shadow">
+    <!-- Logo -->
+    <div class="w-full md:w-auto flex justify-center md:justify-start">
+      <img src="https://i.postimg.cc/26ZgPsJP/occasio.jpg" alt="Logo"
+        class="w-28 h-20 sm:w-32 sm:h-24 md:w-40 md:h-28">
     </div>
-    <footer class="bg-[#dfbf9f] rounded-lg shadow-sm dark:bg-gray-900 mt-30">
-        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-            <div class="sm:flex sm:items-center sm:justify-between">
-                <a href="./index.html" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                    <img src="https://i.postimg.cc/26ZgPsJP/occasio.jpg" class="h-30 w-40" alt="Flowbite Logo" />
-                </a>
-                <ul class="flex flex-wrap items-center mb-6 text-sm text-lg text-gray-700 sm:mb-0 dark:text-gray-400">
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6 text-xl">Terms of Use</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6 text-xl">Shipping & Returns</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6 text-xl">Privacy Policy</a>
-                    </li>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <li>
-                        <i class="fa-brands fa-instagram text-2xl"></i>
-                        <i class="fa-brands fa-facebook-f text-2xl"></i>
-                        <i class="fa-brands fa-pinterest-p text-2xl"></i>
-                    </li>
-                </ul>
-            </div>
-            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a
-                    href="https://flowbite.com/" class="hover:underline">Occasio™</a>. All Rights Reserved.</span>
+
+<nav class="order-3 md:order-2 w-full md:w-auto mt-1 md:mt-0 
+     flex flex-nowrap items-center justify-center md:justify-start 
+     gap-4 md:gap-6 overflow-x-auto overflow-y-hidden no-scrollbar 
+     ml-0 md:ml-20 font-bold text-sm sm:text-lg md:text-2xl whitespace-nowrap">
+     
+  <a href="./index.html" class="relative hover:text-gray-900 transition duration-300 after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 hover:after:w-full">
+    Home
+  </a>
+  <a href="./login.html" class="relative hover:text-gray-900 transition duration-300 after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 hover:after:w-full">
+    Login
+  </a>
+  <a href="./registration.html" class="relative hover:text-gray-900 transition duration-300 after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 hover:after:w-full">
+    Registration
+  </a>
+  <a href="./booking.html" class="relative hover:text-gray-900 transition duration-300 after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 hover:after:w-full">
+    Booking
+  </a>
+  <a href="./contact.html" class="relative hover:text-gray-900 transition duration-300 after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 after:-bottom-1 after:bg-gray-800 after:transition-all after:duration-300 hover:after:w-full">
+    Contact Us
+  </a>
+</nav>
+
+
+    <!-- Brand Name -->
+    <div class="order-2 md:order-3 w-full md:w-auto flex justify-center md:justify-end">
+      <span class="text-2xl sm:text-4xl md:text-5xl font-bold">OCCASIO</span>
+    </div>
+  </header>
+
+  <!-- Login Title -->
+  <h1 class="text-yellow-800 text-center text-4xl md:text-5xl my-8" style="font-family:'Times New Roman', Times, serif;">Login</h1>
+
+  <!-- Main Content -->
+  <div class="flex flex-col md:flex-row items-center justify-center gap-10 px-6 md:px-20">
+    <!-- Illustration -->
+    <div class="flex justify-center">
+      <img src="https://cdni.iconscout.com/illustration/premium/thumb/event-management-6544578-5395861.png"
+        class="w-64 md:w-96 rounded-lg shadow p-3" alt="Illustration">
+    </div>
+
+    <!-- Login Form -->
+    <div class="w-full max-w-md">
+      <form class="bg-[#e39a82] mx-auto border rounded-lg p-8 md:p-12 shadow">
+        <div class="mb-5">
+          <label for="email" class="block mb-2 text-lg font-medium text-gray-900">Username or Email</label>
+          <input type="email" id="email"
+            class="border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 focus:ring-blue-500 focus:border-blue-500"
+            required />
         </div>
-    </footer>
+        <div class="mb-5">
+          <label for="password" class="block mb-2 text-lg font-medium text-gray-900">Password</label>
+          <input type="password" id="password"
+            class="border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 focus:ring-blue-500 focus:border-blue-500"
+            required />
+        </div>
+        <div class="mb-5 text-lg">
+          <a href="#" class="text-red-700">Forgot password?</a>
+        </div>
+        <div class="text-center text-lg">
+          <a href="./index.html"
+            class="w-full inline-block text-white bg-[#945a57] hover:bg-[#bc9fad] focus:ring-4 focus:outline-none font-medium rounded-lg text-lg px-5 py-2.5">
+            Login
+          </a>
+          <p class="mt-7">Don't have an account? <a href="./registration.html" class="text-yellow-900">Register</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<!-- ✅ Footer (All links in one line, scrollable on phones) -->
+<footer class="bg-[#dfbf9f] border-t border-gray-300 shadow-sm dark:bg-gray-900 mt-10">
+  <div class="w-full max-w-screen-xl mx-auto p-6 md:py-8">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+      
+      <!-- Logo -->
+      <a href="./index.html" class="flex justify-center md:justify-start">
+        <img src="https://i.postimg.cc/26ZgPsJP/occasio.jpg" class="h-20 w-32 md:h-28 md:w-40" alt="Occasio Logo" />
+      </a>
+
+      <!-- Links + Socials -->
+      <div class="flex flex-col items-center md:items-end gap-4 w-full">
+        <!-- Inline Links (no wrap, scroll if needed) -->
+        <ul class="flex justify-center md:justify-end gap-6 text-base md:text-xl font-medium text-gray-700 dark:text-gray-400 overflow-x-auto whitespace-nowrap no-scrollbar">
+          <li><a href="#" class="hover:underline">Terms of Use</a></li>
+          <li><a href="#" class="hover:underline">Shipping & Returns</a></li>
+          <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+        </ul>
+
+        <!-- Social Icons -->
+        <div class="flex justify-center md:justify-end gap-6 text-2xl">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <hr class="my-6 border-gray-300 sm:mx-auto dark:border-gray-700" />
+
+    <!-- Copyright -->
+    <span class="block text-sm text-gray-600 sm:text-center dark:text-gray-400">
+      © 2025 <a href="./index.html" class="hover:underline">Occasio™</a>. All Rights Reserved.
+    </span>
+  </div>
+</footer>
+
+
 </body>
 
 </html>
